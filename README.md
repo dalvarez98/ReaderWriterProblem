@@ -1,3 +1,5 @@
+This code implements a solution to the Reader-Writer problem using semaphores for synchronization. The rwlock_t structure contains counters and semaphores for readers, writers, and fairness. The provided functions allow acquiring and releasing read and write locks while ensuring fairness in access. The reading_writing() function simulates reading and writing operations with random delays.
+
 To compile the program:
 using this command: make
 
